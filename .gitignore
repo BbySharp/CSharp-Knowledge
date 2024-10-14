@@ -1,0 +1,54 @@
+# .NET build directories
+bin/
+obj/
+
+# VS Code and Visual Studio specific files
+.vscode/
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Rider specific files
+.idea/
+
+# MacOS system files
+.DS_Store
+
+# Log files
+*.log
+*.tlog
+*.log2
+
+# NuGet Packages
+*.nupkg
+*.snupkg
+.nuget/
+
+# Temporary files
+*.tmp
+*.temp
+*.pid
+*.gz
+*.diff
+
+# File Locking
+*.lock
+
+# Build results
+out/
+*.exe
+*.dll
+*.pdb
+*.class
+
+# Backup files
+*.bak
+*.old
+*.swp
+
+# Generated files
+*.generated.cs
+*.generated/
+*.Designer.cs
