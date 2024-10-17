@@ -182,6 +182,8 @@ else
 // Bài 5: Viết chương trình tính lương nhân viên.
 // Yêu cầu nhập giờ làm việc và lương mỗi giờ. Nếu giờ làm việc trên 40 giờ thì tính thêm 1.5 lần cho giờ làm thêm.
 
+
+
 //TODO Hard
 // Bài 1: Viết chương trình tính toán tiền điện.
 // Yêu cầu người dùng nhập số điện đã tiêu thụ. Sử dụng các điều kiện:
@@ -189,6 +191,7 @@ else
 // - Từ 51-100kWh: giá 2.000 đồng/kWh
 // - Trên 100kWh: giá 2.500 đồng/kWh
 // In ra tổng số tiền điện phải trả.
+
 
 
 // Bài 2: Viết chương trình quản lý kho hàng.
@@ -225,3 +228,10 @@ else
 
 // Bài 5: Viết chương trình tìm phần tử xuất hiện nhiều nhất trong một mảng.
 // Yêu cầu người dùng nhập vào một mảng số nguyên và tìm phần tử xuất hiện nhiều nhất.
+
+
+
+
+
+
+
