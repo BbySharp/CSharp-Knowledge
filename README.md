@@ -1,122 +1,71 @@
 # 📚 C# Knowledge Repository 🚀
 
-Welcome to the **C# Knowledge Repository**, where you will find a comprehensive collection of C# exercises and projects. This repository is organized to help learners at all levels, from **beginners** to **advanced developers**, build and enhance their C# skills.
+Chào mừng bạn đến với **C# Knowledge Repository**, nơi bạn sẽ tìm thấy bộ sưu tập bài tập và dự án đầy đủ về C#. Repository này được tổ chức để hỗ trợ người học ở mọi cấp độ, từ **người mới bắt đầu** đến **lập trình viên nâng cao**, giúp nâng cao kỹ năng C# của bạn.
 
-## 🗂️ Repository Structure
+## 🗂️ Cấu trúc Repository
 
-The repository is divided into **11 main sections**. Each section contains folders with projects and exercises designed to cover specific C# topics. The topics range from basic concepts like **variables** and **loops** to advanced topics like **asynchronous programming** and **design patterns**.
+Repository này được chia thành **11 phần chính**. Mỗi phần chứa các thư mục với các dự án và bài tập được thiết kế để bao quát các chủ đề C# cụ thể, từ những khái niệm cơ bản như **biến (variables)** và **vòng lặp (loops)** đến các chủ đề nâng cao như **lập trình bất đồng bộ (asynchronous programming)** và **mẫu thiết kế (design patterns)**.
 
-### 📌 Quick Overview:
-| Section                | Topics Covered                                            |
-|------------------------|-----------------------------------------------------------|
-| **01-Basics**           | Variables, Loops, Conditions, Arrays, Functions, Operators|
-| **02-OOP**              | Classes, Objects, Encapsulation, Inheritance, Polymorphism|
-| **03-DataStructures**   | Lists, Dictionaries, Stacks, Queues, Linked Lists         |
-| **04-ExceptionHandling**| Try-Catch, Custom Exceptions, Exception Hierarchy         |
-| **05-LINQ**             | Queries, Aggregation, Grouping, Joins                     |
-| **06-AsyncProgramming** | Async/Await, Tasks, Parallel Programming                  |
-| **07-DelegatesAndEvents**| Delegates, Events, Func, Action, Predicate               |
-| **08-DesignPatterns**   | Singleton, Factory, Observer, Dependency Injection        |
-| **09-FileIO**           | Reading/Writing Files, Serialization, JSON, XML           |
-| **10-Databases**        | SQL, Entity Framework, CRUD                               |
-| **11-Projects**         | Comprehensive projects integrating multiple topics       |
-
----
-
-## 📘 Detailed Sections
-
-### 1️⃣ Basics (💡 Getting Started)
-Start here to learn the **fundamentals of C#**. Master the basics before moving on to more advanced concepts.
-
-- **Variables**: Understand data types and variable declarations.
-- **Loops**: Learn about `for`, `while`, and `do-while` loops.
-- **Conditions**: Practice conditional statements (`if-else`, `switch`).
-- **Arrays**: Introduction to arrays and their operations.
-- **Functions**: Writing reusable methods in C#.
-- **Operators**: Use arithmetic, comparison, and logical operators.
+### 📌 Tổng quan nhanh:
+| Phần                   | Các chủ đề được bao phủ                                     |
+|------------------------|------------------------------------------------------------|
+| **01-Basics**           | Biến, Vòng lặp, Điều kiện, Mảng, Hàm, Toán tử               |
+| **02-OOP**              | Lớp, Đối tượng, Đóng gói, Kế thừa, Đa hình                  |
+| **03-DataStructures**   | Danh sách, Từ điển, Ngăn xếp, Hàng đợi, Danh sách liên kết  |
+| **04-ExceptionHandling**| Xử lý ngoại lệ: Try-Catch, Ngoại lệ tùy chỉnh               |
+| **05-LINQ**             | Truy vấn, Tổng hợp, Nhóm, Kết hợp                           |
+| **06-AsyncProgramming** | Async/Await, Tác vụ, Lập trình song song                    |
+| **07-DelegatesAndEvents**| Ủy quyền, Sự kiện, Func, Action, Predicate                |
+| **08-DesignPatterns**   | Singleton, Factory, Observer, Dependency Injection          |
+| **09-FileIO**           | Đọc/Ghi tệp, Serialization, JSON, XML                       |
+| **10-Databases**        | SQL, Entity Framework, CRUD                                 |
+| **11-Projects**         | Dự án tích hợp nhiều chủ đề khác nhau                       |
 
 ---
 
-### 2️⃣ Object-Oriented Programming (OOP) (🛠️ Building Blocks)
-Deep dive into **Object-Oriented Programming** principles. Learn how to build scalable, maintainable software using OOP.
+## 📘 Các phần chi tiết
 
-- **Classes and Objects**: Define and use custom classes and objects.
-- **Encapsulation**: Protect your data with access modifiers (`public`, `private`).
-- **Inheritance**: Reuse code by creating a class hierarchy.
-- **Polymorphism**: Overload and override methods for flexibility.
-- **Abstract Classes & Interfaces**: Use abstraction to create flexible designs.
+### 1️⃣ Basics (💡 Khởi đầu)
+Bắt đầu ở đây để học **những nền tảng của C#**. Làm chủ các khái niệm cơ bản trước khi chuyển sang các chủ đề nâng cao hơn.
 
----
-
-### 3️⃣ Data Structures (📊 Organizing Data)
-Learn about common data structures and how to manipulate them efficiently.
-
-- **Lists**: Work with dynamic collections.
-- **Dictionaries**: Store and retrieve key-value pairs.
-- **Stacks**: Implement Last-In-First-Out (LIFO) operations.
-- **Queues**: Implement First-In-First-Out (FIFO) operations.
-- **Linked Lists**: Learn about singly and doubly linked lists.
+- **Biến (Variables)**: Hiểu về các kiểu dữ liệu và cách khai báo biến.
+- **Vòng lặp (Loops)**: Học về các vòng lặp `for`, `while`, và `do-while`.
+- **Điều kiện (Conditions)**: Thực hành các câu lệnh điều kiện (`if-else`, `switch`).
+- **Mảng (Arrays)**: Giới thiệu về mảng và các thao tác trên mảng.
+- **Hàm (Functions)**: Viết các phương thức có thể tái sử dụng trong C#.
+- **Toán tử (Operators)**: Sử dụng các toán tử số học, so sánh và logic.
 
 ---
 
-### 4️⃣ Exception Handling (🛡️ Error Management)
-Handling errors gracefully is a must for any robust application. Learn to manage exceptions and create custom error messages.
+### 2️⃣ Lập trình hướng đối tượng (OOP) (🛠️ Xây dựng nền tảng)
+Tìm hiểu sâu về các nguyên tắc của **Lập trình hướng đối tượng (OOP)**. Học cách xây dựng phần mềm mở rộng, bảo trì dễ dàng bằng cách sử dụng OOP.
 
-- **Try-Catch-Finally**: Catch and handle runtime exceptions.
-- **Custom Exceptions**: Create your own exception classes.
-- **Exception Hierarchy**: Explore the built-in hierarchy of exception types.
-
----
-
-### 5️⃣ LINQ (🔍 Data Querying)
-**LINQ** (Language Integrated Query) allows you to query collections like databases. This section covers:
-
-- **Basic Queries**: Filter and select data from collections.
-- **Aggregations**: Perform operations like `Sum`, `Count`, and `Average`.
-- **Grouping and Joining**: Group data by keys and join multiple collections.
+- **Lớp và Đối tượng**: Định nghĩa và sử dụng các lớp và đối tượng tùy chỉnh.
+- **Đóng gói (Encapsulation)**: Bảo vệ dữ liệu bằng các phạm vi truy cập (`public`, `private`).
+- **Kế thừa (Inheritance)**: Tái sử dụng mã bằng cách tạo ra các hệ thống lớp kế thừa.
+- **Đa hình (Polymorphism)**: Quá tải và ghi đè các phương thức để tạo sự linh hoạt.
+- **Lớp trừu tượng và giao diện**: Sử dụng trừu tượng để tạo thiết kế linh hoạt.
 
 ---
 
-### 6️⃣ Asynchronous Programming (⚙️ Performance Boost)
-Learn how to handle long-running tasks without blocking the main thread using **async** and **await**.
+### 3️⃣ Cấu trúc dữ liệu (📊 Tổ chức dữ liệu)
+Tìm hiểu về các cấu trúc dữ liệu phổ biến và cách thao tác chúng một cách hiệu quả.
 
-- **Async/Await**: Write asynchronous code in a clean and readable way.
-- **Tasks**: Manage tasks and background processes.
-- **Parallel Programming**: Execute multiple operations concurrently.
-
----
-
-### 7️⃣ Delegates and Events (📣 Event-Driven Programming)
-Delegates and events are crucial in building **event-driven** systems.
-
-- **Delegates**: Pass methods as parameters.
-- **Events**: Trigger and handle events in C#.
-- **Func, Action, Predicate**: Built-in delegates for common use cases.
+- **Danh sách (Lists)**: Làm việc với các danh sách động.
+- **Từ điển (Dictionaries)**: Lưu trữ và truy xuất các cặp key-value.
+- **Ngăn xếp (Stacks)**: Thực hiện các thao tác Last-In-First-Out (LIFO).
+- **Hàng đợi (Queues)**: Thực hiện các thao tác First-In-First-Out (FIFO).
+- **Danh sách liên kết (Linked Lists)**: Tìm hiểu về danh sách liên kết đơn và đôi.
 
 ---
 
-### 8️⃣ Design Patterns (🎨 Best Practices)
-Learn industry-standard **design patterns** to write better, more maintainable code.
+### 4️⃣ Xử lý ngoại lệ (🛡️ Quản lý lỗi)
+Xử lý lỗi một cách thông minh là một yêu cầu cần thiết cho bất kỳ ứng dụng mạnh mẽ nào. Tìm hiểu cách quản lý ngoại lệ và tạo thông báo lỗi tùy chỉnh.
 
-- **Singleton**: Ensure a class has only one instance.
-- **Factory**: Encapsulate object creation logic.
-- **Observer**: Implement the observer pattern for event-driven systems.
-- **Dependency Injection**: Decouple dependencies for better testability and flexibility.
-
----
-
-### 9️⃣ File I/O (📂 File Management)
-Learn how to read and write files, and serialize/deserialize objects.
-
-- **Reading and Writing Files**: Manipulate file data with `StreamReader` and `StreamWriter`.
-- **Serialization**: Convert objects into byte streams and vice versa.
-- **JSON/XML**: Work with JSON and XML formats for data exchange.
+- **Try-Catch-Finally**: Bắt và xử lý ngoại lệ trong runtime.
+- **Ngoại lệ tùy chỉnh**: Tạo các lớp ngoại lệ của riêng bạn.
+- **Hierarchy of Exception**: Khám phá cấu trúc phân cấp các loại ngoại lệ.
 
 ---
 
-### 🔟 Databases (💾 Persistent Storage)
-Working with databases is an essential skill for any developer.
-
-- **SQL Basics**: Perform basic CRUD operations using SQL.
-- **Entity Framework**: Use Entity Framework to work with relational data in an object-oriented way.
-- **CRUD Operations**: Create, Read, Update, and Delete data from databases.
+## 🔗 Liên kết đến bộ câu hỏi và kiến thức chi tiết về **Biến (Variables)**: [Click here](https://github.com/BbySharp/CSharp-Knowledge/blob/main/01-Basics/Variables/INTERVIEW.md)
